@@ -1,0 +1,235 @@
+# This contains a yaml config for
+# determining which of the .tex files
+# to use for each book number.
+16:
+  main:
+    - cangemi.tex
+17:
+  main:
+    - XeTeX_piteSaami_SDL.tex
+18:
+  main:
+19:
+  main:
+    - chapters/*.tex
+20:
+  main:
+    - Lichte/main.tex
+22:
+  main:
+    - main.tex
+25:
+  main:
+    - main.tex
+27:
+  main:
+    - main.tex
+46:
+  main:
+    - egbd.lsp/chapters/*.tex
+48:
+  main:
+    - enfield.merge/enfield.tex
+49:
+  main:
+    - chap*/*.tex
+50:
+  main:
+    - book.tex
+51:
+  main:
+    - book.tex
+52:
+  main:
+    - main.tex
+53:
+  main:
+    - book.tex
+66:
+  main:
+    - main.tex
+67:
+  main:
+    - main.tex
+73:
+  main:
+    - chapters/*.tex
+74:
+  main:
+    - chapters/*.tex
+75:
+  main:
+    - main.tex
+76:
+  main:
+    - editedskeleton/chapters/*.tex
+78:
+  main:
+    - main.tex
+81:
+  main:
+    - main.tex
+82:
+  main:
+    - main.tex
+83:
+  main:
+    - main.tex
+88:
+  main:
+    - skeleton/lsp-skeleton.tex
+89:
+  main:
+  - main.tex
+91:
+  main:
+  - main.tex
+94:
+  main:
+    - main.tex
+96:
+  main:
+    - main.tex
+97:
+  main:
+    - main.tex
+98:
+  main:
+    - main.tex
+101:
+  main:
+    -schaefer-egbd.tex
+102:
+  main:
+    - main.tex
+103:
+  main:
+    - main.tex
+106:
+  main:
+    - main.tex
+107:
+  main:
+    - main.tex
+108:
+  main:
+    - main.tex
+109:
+  main:
+    - main.tex
+111:
+  main:
+    - main.tex
+115:
+  main:
+    - main.tex
+116:
+  main:
+    - main.tex
+118:
+  main:
+    - main.tex
+120:
+  main:
+    - main.tex
+121:
+  main:
+    - main.tex
+123:
+  main:
+    - main.tex
+124:
+  main:
+    - main.tex
+132:
+  main:
+    - main.tex
+134:
+  main:
+    - main.tex
+137:
+  main:
+    - main.tex
+141:
+  main:
+    - main.tex
+143:
+  main:
+    - skeleton/main.tex
+144:
+  main:
+    - main.tex
+149:
+  main:
+    - main.tex
+151:
+  main:
+    - main.tex
+152:
+  main:
+    - main.tex
+153:
+  main: 
+    - main.tex
+154:
+  main:
+    - main.tex
+155:
+  main:
+156:
+  main:
+    - main.tex
+157:
+  main:
+    - main.tex
+159:
+  main: 
+    - main.tex
+160:
+  main:
+    - main.tex
+165:
+  main:
+167:
+  main:
+    - main.tex
+173:
+  main:
+    - main.tex
+174:
+  main: 
+    - main.tex
+175:
+  main:
+    - main.tex
+176:
+  main:
+    - main.tex
+180:
+  main:
+181:
+  main:
+    - main.tex
+182:
+  main:
+    - main.tex
+184:
+  main:
+    - main.tex
+187:
+  main:
+191:
+  main:
+193:
+  main:
+    - main.tex
+195:
+  main:
+199:
+  main:
+    - main.tex
+201:
+  main:
+    - main.tex
+
+# end

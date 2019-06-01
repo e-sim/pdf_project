@@ -1,0 +1,32 @@
+Necessary for benchmarks:
+    3 folders: groundtruth, pdf, src (txt, pdf, tex)
+        1 folder w/in that for each doc (? unsure if necessary)
+
+    need to make pdfs of all of them
+    txt files must end with .body.txt
+    any files needed to compile the tex should be in the corresponding
+        src folder
+
+
+    example: benchmark/groundtruth/00/abcd.body.txt
+
+2/15
+
+--pdf-engine=pdflatex|lualatex|xelatex|wkhtmltopdf|weasyprint|prince|context|pdfroff
+Use the specified engine when producing PDF output. The default is pdflatex. If the 
+engine is not in your PATH, the full path of the engine may be specified here.
+
+"When using LaTeX, the following packages need to be available...."
+
+use --quiet to shut it up
+
+--metadata-file=FILE
+Read metadata from the supplied YAML (or JSON) file. 
+
+There's a subscript/superscript extension?  Does it work for pdf?
+
+also Extension: latex_macros but not rec for pdf
+
+--log option
+
+--wrap=auto|none|preserve

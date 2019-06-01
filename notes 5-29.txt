@@ -1,0 +1,10 @@
+MISC NOTES
+
+There's a copy of the lsp .sty file in 176 (and others)
+
+
+
+5/30
+
+
+the langsci-lgr.sty includes all the commands needed for POS (/decl, /fem, &c)

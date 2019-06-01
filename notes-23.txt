@@ -1,0 +1,25 @@
+notes
+-there is code implementation of the evaluation used in the paper i read
+
+
+
+qs
+-what exactly am i evaluating
+-freki or txt?
+
+
+
+todo
+-find more papers
+-get above code and run on data/reproduce results
+- run tesseract on new docs (both by word and by char)
+-ocr vs pdf to txt
+-automate 
+
+
+
+8/27
+- tried to run evaluator.py --help but failed
+- next step is installing it on my virtual machine and trying to run it there -- doesn't work
+- another step: find the usage notes anyway
+- nail down exactly what the inputs look like

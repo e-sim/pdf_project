@@ -1,0 +1,28 @@
+From #18:
+languages: Murle, Tennet (both Surmic; Sudan)
+commands to look up: **exe, \langinfobreak, \citealp?
+IPA usage: yes, textipa shortcuts.
+
+\begin{exe}
+\ex\label{MurGen}\langinfobreak{Murle}{Surmic; Sudan}{\citealp[108]{Arensen:1982}}
+\gll\textipa{cirlil-i} \textipa{agam} \textipa{idiN} \textipa{ci} \textipa{Naa\textbf{-o}}\\
+kite-\nom{} grab meat \relativ{} woman-\gen{}\\
+\glt `The kite grabs the meat of the woman' 
+\end{exe}
+
+\begin{exe}
+\ex\label{TenGen}\langinfobreak{Tennet}{Surmic; Sudan}{\citealp[230]{Randal:1998}}
+\gll\textipa{mana} \textipa{c\'I} \textipa{ongol\textbf{-\=*o}} \\
+field \am{} elephant-\gen{}\\
+\glt `elephant's field'  
+\end{exe}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+7014/120991402.5045.pdf                 1402.5045.final.txt                     2487ms    0    
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/erica/miniconda3/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/erica/miniconda3/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/bin/extractor.py", line 230, in process_pdf_file
+    self.extract(pdf, raw_path, file_result)
+  File "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/bin/extractor.py", line 290, in extract
+    status_code, is_timeout, stdout, stderr = start_process(cmd, timeout)
+  File "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/bin/extractor.py", line 273, in start_process
+    stderr = stderr.decode("UTF-8").strip()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8c in position 35: invalid start byte
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "./bin/extractor.py", line 535, in <module>
+    Extractor(args).process()
+  File "./bin/extractor.py", line 56, in process
+    results_per_tool[tool] = tool_extractor.process()
+  File "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/bin/extractor.py", line 201, in process
+    file_results = pool.map(self.process_pdf_file, self.pdf_files)
+  File "/home/erica/miniconda3/lib/python3.7/multiprocessing/pool.py", line 290, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/home/erica/miniconda3/lib/python3.7/multiprocessing/pool.py", line 683, in get
+    raise self._value
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8c in position 35: invalid start byte
+Makefile:40: recipe for target 'extract' failed
+make: *** [extract] Error 1
+

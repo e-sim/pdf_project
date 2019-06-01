@@ -1,0 +1,394 @@
+pdfbox(??) -- some files did work!  errors too long though-- actually do need to add back a limit
+
+19:35:58 WARN: java.lang.NullPointerException
+java.lang.NullPointerException
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.findFontName(CharSegment.java:155)
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.<init>(CharSegment.java:90)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.showString(PDFObjectExtractor.java:543)
+	at at.ac.tuwien.dbai.pdfwrap.operator.ShowTextGlyph.process(ShowTextGlyph.java:86)
+	at org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:554)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processOperator(PDFObjectExtractor.java:259)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:268)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:235)
+	at org.apache.pdfbox.util.PDFStreamEngine.processStream(PDFStreamEngine.java:215)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPage(PDFObjectExtractor.java:1673)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPages(PDFObjectExtractor.java:1530)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.findObjects(PDFObjectExtractor.java:1390)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDF(ProcessFile.java:179)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDFToXMLDocument(ProcessFile.java:343)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.main(ProcessFile.java:532)
+19:35:58 WARN: java.lang.NullPointerException
+java.lang.NullPointerException
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.findFontName(CharSegment.java:155)
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.<init>(CharSegment.java:90)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.showString(PDFObjectExtractor.java:543)
+	at at.ac.tuwien.dbai.pdfwrap.operator.ShowTextGlyph.process(ShowTextGlyph.java:86)
+	at org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:554)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processOperator(PDFObjectExtractor.java:259)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:268)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:235)
+	at org.apache.pdfbox.util.PDFStreamEngine.processStream(PDFStreamEngine.java:215)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPage(PDFObjectExtractor.java:1673)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPages(PDFObjectExtractor.java:1530)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.findObjects(PDFObjectExtractor.java:1390)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDF(ProcessFile.java:179)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDFToXMLDocument(ProcessFile.java:343)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.main(ProcessFile.java:532)
+19:35:58 WARN: java.lang.NullPointerException
+java.lang.NullPointerException
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.findFontName(CharSegment.java:155)
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.<init>(CharSegment.java:90)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.showString(PDFObjectExtractor.java:543)
+	at at.ac.tuwien.dbai.pdfwrap.operator.ShowTextGlyph.process(ShowTextGlyph.java:86)
+	at org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:554)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processOperator(PDFObjectExtractor.java:259)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:268)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:235)
+	at org.apache.pdfbox.util.PDFStreamEngine.processStream(PDFStreamEngine.java:215)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPage(PDFObjectExtractor.java:1673)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPages(PDFObjectExtractor.java:1530)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.findObjects(PDFObjectExtractor.java:1390)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDF(ProcessFile.java:179)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDFToXMLDocument(ProcessFile.java:343)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.main(ProcessFile.java:532)
+19:35:58 WARN: java.lang.NullPointerException
+java.lang.NullPointerException
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.findFontName(CharSegment.java:155)
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.<init>(CharSegment.java:90)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.showString(PDFObjectExtractor.java:543)
+	at at.ac.tuwien.dbai.pdfwrap.operator.ShowTextGlyph.process(ShowTextGlyph.java:86)
+	at org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:554)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processOperator(PDFObjectExtractor.java:259)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:268)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:235)
+	at org.apache.pdfbox.util.PDFStreamEngine.processStream(PDFStrea
+
+etc etc
+
+==================================================================
+
+
+grobid
+
+20/25     physics0001033.pdf            physics0001033.final.txt                103129ms  0    JarClassLoader: Warning: org/apache/lucene/analysis/cn/smart/hhmm/SegTokenFilter.class in lib/lucene-analyzers-smartcn-4.5.1.jar is hidden by lib/wipo-analysers-0.0.1.jar (with different bytecode)
+JarClassLoader: Warning: org/w3c/dom/UserDataHandler.class in lib/xom-1.2.5.jar is hidden by lib/xml-apis-1.4.01.jar (with different bytecode)
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/fulltext/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/fulltext/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/segmentation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/segmentation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/figure/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/figure/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/header/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/header/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/header/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/header/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/citation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/citation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/affiliation-address/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/affiliation-address/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/date/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/date/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/citation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/citation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/reference-segmenter/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/reference-segmenter/model.wapiti
+21/25     physics0001062.pdf            physics0001062.final.txt                103854ms  0    JarClassLoader: Warning: org/apache/lucene/analysis/cn/smart/hhmm/SegTokenFilter.class in lib/lucene-analyzers-smartcn-4.5.1.jar is hidden by lib/wipo-analysers-0.0.1.jar (with different bytecode)
+JarClassLoader: Warning: org/w3c/dom/UserDataHandler.class in lib/xom-1.2.5.jar is hidden by lib/xml-apis-1.4.01.jar (with different bytecode)
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/fulltext/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/fulltext/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/segmentation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/segmentation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/header/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/header/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/header/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/header/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/citation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/citation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/affiliation-address/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/affiliation-address/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/citation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/citation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/reference-segmenter/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/reference-segmenter/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/date/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/date/model.wapiti
+
+
+
+
+
+=========================================================
+
+
+
+
+
+
+Extraction.
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tools:                        pdftotext, pdfbox, lapdftext, pdfminer, pdfXtk, pdfextract, grobid, icecite
+Num Threads:                  None
+Mute:                         False
+PDFs root:                    ../benchmark/pdf/tiny-data/1-orig
+YY Filter:                    ''
+MM Filter:                    ''
+Prefix:                       ''
+Suffix:                       '.pdf'
+Timeout (secs):               300
+
+Collecting PDF files ...
+
+# Found PDF files:            5
+
+
+Extraction using tool pdftotext
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tool Dir:                     /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/pdftotext
+Output dir:                   /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/output/tiny-data/1-orig/pdftotext
+CMD:                          ./bin/pdftotext -nopgbrk $IN $OUT
+Disabled:                     False
+
+Extracting ...
+
+Start time:                   13:05:21.013000 (2019-05-15)
+--------------------------------------------------------------------------------------------------------------------------------------------
+#         Input                         Target                                  Runtime   Code Status
+--------------------------------------------------------------------------------------------------------------------------------------------
+1/5       astro-ph0001196.pdf           astro-ph0001196.final.txt               19ms      127  ./bin/pdftotext: error while loading shared libraries: libpoppler.so.52: cannot open shared object file: No such file or directory
+2/5       astro-ph0001004.pdf           astro-ph0001004.final.txt               19ms      127  ./bin/pdftotext: error while loading shared libraries: libpoppler.so.52: cannot open shared object file: No such file or directory
+3/5       astro-ph0001529.pdf           astro-ph0001529.final.txt               25ms      127  ./bin/pdftotext: error while loading shared libraries: libpoppler.so.52: cannot open shared object file: No such file or directory
+4/5       astro-ph0001486.pdf           astro-ph0001486.final.txt               16ms      127  ./bin/pdftotext: error while loading shared libraries: libpoppler.so.52: cannot open shared object file: No such file or directory
+5/5       cond-mat0001108.pdf           cond-mat0001108.final.txt               17ms      127  ./bin/pdftotext: error while loading shared libraries: libpoppler.so.52: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------------------------------------------------------------------------
+Total time: 96ms              
+Avg. Time: 19ms               
+
+
+Extraction using tool pdfbox
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tool Dir:                     /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/pdfbox
+Output dir:                   /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/output/tiny-data/1-orig/pdfbox
+CMD:                          java -jar ./bin/pdfbox-app-2.0.3.jar ExtractText -html $IN $OUT > /dev/null
+Disabled:                     False
+
+Extracting ...
+
+Start time:                   13:05:21.568000 (2019-05-15)
+--------------------------------------------------------------------------------------------------------------------------------------------
+#         Input                         Target                                  Runtime   Code Status
+--------------------------------------------------------------------------------------------------------------------------------------------
+1/5       astro-ph0001196.pdf           astro-ph0001196.final.txt               10211ms   0    
+2/5       astro-ph0001004.pdf           astro-ph0001004.final.txt               10899ms   0    May 15, 2019 1:05:30 PM org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode
+WARNING: No Unicode mapping for parenleftbigg (18) in font ZPGVCH+CMEX10
+May 15, 2019 1:05:30 PM org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode
+WARNING: No Unicode mapping for parenrightbigg (19) in font ZPGVCH+CMEX10
+May 15, 2019 1:05:31 PM org.apache.pdfbox.pdmodel.font.PD
+3/5       astro-ph0001486.pdf           astro-ph0001486.final.txt               9804ms    0    May 15, 2019 1:05:40 PM org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode
+WARNING: No Unicode mapping for prime (48) in font ZRTJBA+CMSY8
+May 15, 2019 1:05:41 PM org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode
+WARNING: No Unicode mapping for circledot (12) in font ZRTJBA+CMSY8
+4/5       astro-ph0001529.pdf           astro-ph0001529.final.txt               10123ms   0    May 15, 2019 1:05:41 PM org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode
+WARNING: No Unicode mapping for circledot (12) in font VXAZQP+CMSY8
+5/5       cond-mat0001108.pdf           cond-mat0001108.final.txt               6228ms    0    May 15, 2019 1:05:47 PM org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode
+WARNING: No Unicode mapping for integraldisplay (90) in font UYVLXV+CMEX10
+May 15, 2019 1:05:47 PM org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode
+WARNING: No Unicode mapping for a54 (54) in font FQZLFD+LINE10
+May 15, 2019 1:05:47 PM org.apache.pdfbox.pdmodel.font.PDSimpleFon
+--------------------------------------------------------------------------------------------------------------------------------------------
+Total time: 47s 265ms         
+Avg. Time: 9s 453ms           
+
+
+Extraction using tool lapdftext
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tool Dir:                     /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/lapdftext
+Output dir:                   /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/output/tiny-data/1-orig/lapdftext
+CMD:                          java -cp ./bin/lapdftext/target/lapdftext-1.7.5-SNAPSHOT-jar-with-dependencies.jar edu.isi.bmkeg.lapdf.bin.ReadSectionText $IN $OUT > /dev/null
+Disabled:                     False
+
+Extracting ...
+
+Start time:                   13:05:48.291000 (2019-05-15)
+--------------------------------------------------------------------------------------------------------------------------------------------
+#         Input                         Target                                  Runtime   Code Status
+--------------------------------------------------------------------------------------------------------------------------------------------
+1/5       astro-ph0001196.pdf           astro-ph0001196.final.txt               29330ms   0    [Fatal Error] :1:51: The entity name must immediately follow the '&' in the entity reference.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[Fatal Error] :1:51: The entity name must immediately fo
+2/5       astro-ph0001004.pdf           astro-ph0001004.final.txt               36383ms   0    [Fatal Error] :1:49: The entity name must immediately follow the '&' in the entity reference.
+[Fatal Error] :1:50: The entity name must immediately follow the '&' in the entity reference.
+[Fatal Error] :1:50: The entity name must immediately follow the '&' in the entity reference.
+[Fatal Error] :1:50: The entity name must immediately follow the '&' in the en
+3/5       astro-ph0001486.pdf           astro-ph0001486.final.txt               27294ms   0    [Fatal Error] :1:50: The entity name must immediately follow the '&' in the entity reference.
+[Fatal Error] :1:50: The entity name must immediately follow the '&' in the entity reference.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#St
+4/5       astro-ph0001529.pdf           astro-ph0001529.final.txt               28787ms   0    [Fatal Error] :1:50: The entity name must immediately follow the '&' in the entity reference.
+[Fatal Error] :1:50: The entity name must immediately follow the '&' in the entity reference.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#St
+5/5       cond-mat0001108.pdf           cond-mat0001108.final.txt               21626ms   0    SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+--------------------------------------------------------------------------------------------------------------------------------------------
+Total time: 2m 23s 420ms      
+Avg. Time: 28s 684ms          
+
+
+Extraction using tool pdfminer
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tool Dir:                     /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/pdfminer
+Output dir:                   /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/output/tiny-data/1-orig/pdfminer
+CMD:                          ./bin/build/scripts-2.7/pdf2txt.py -o $OUT $IN > /dev/null
+Disabled:                     False
+
+Extracting ...
+
+Start time:                   13:07:06.844000 (2019-05-15)
+--------------------------------------------------------------------------------------------------------------------------------------------
+#         Input                         Target                                  Runtime   Code Status
+--------------------------------------------------------------------------------------------------------------------------------------------
+1/5       astro-ph0001004.pdf           astro-ph0001004.final.txt               620ms     1    Traceback (most recent call last):
+  File "./bin/build/scripts-2.7/pdf2txt.py", line 3, in <module>
+    from pdfminer.pdfdocument import PDFDocument
+ImportError: No module named pdfminer.pdfdocument
+2/5       astro-ph0001196.pdf           astro-ph0001196.final.txt               621ms     1    Traceback (most recent call last):
+  File "./bin/build/scripts-2.7/pdf2txt.py", line 3, in <module>
+    from pdfminer.pdfdocument import PDFDocument
+ImportError: No module named pdfminer.pdfdocument
+3/5       astro-ph0001486.pdf           astro-ph0001486.final.txt               183ms     1    Traceback (most recent call last):
+  File "./bin/build/scripts-2.7/pdf2txt.py", line 3, in <module>
+    from pdfminer.pdfdocument import PDFDocument
+ImportError: No module named pdfminer.pdfdocument
+4/5       astro-ph0001529.pdf           astro-ph0001529.final.txt               204ms     1    Traceback (most recent call last):
+  File "./bin/build/scripts-2.7/pdf2txt.py", line 3, in <module>
+    from pdfminer.pdfdocument import PDFDocument
+ImportError: No module named pdfminer.pdfdocument
+5/5       cond-mat0001108.pdf           cond-mat0001108.final.txt               131ms     1    Traceback (most recent call last):
+  File "./bin/build/scripts-2.7/pdf2txt.py", line 3, in <module>
+    from pdfminer.pdfdocument import PDFDocument
+ImportError: No module named pdfminer.pdfdocument
+--------------------------------------------------------------------------------------------------------------------------------------------
+Total time: 1s 759ms          
+Avg. Time: 351ms              
+
+
+Extraction using tool pdfXtk
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tool Dir:                     /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/pdfXtk
+Output dir:                   /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/output/tiny-data/1-orig/pdfXtk
+CMD:                          java -cp ./bin/trunk/pdfXtk/target/pdfXtk-0.9-SNAPSHOT-jar-with-dependencies.jar at.ac.tuwien.dbai.pdfwrap.ProcessFile -xmillum -spaces -encoding "UTF-8" $IN $OUT > /dev/null
+Disabled:                     False
+
+Extracting ...
+
+Start time:                   13:07:08.024000 (2019-05-15)
+--------------------------------------------------------------------------------------------------------------------------------------------
+#         Input                         Target                                  Runtime   Code Status
+--------------------------------------------------------------------------------------------------------------------------------------------
+1/5       astro-ph0001196.pdf           astro-ph0001196.final.txt               23566ms   0    
+2/5       astro-ph0001004.pdf           astro-ph0001004.final.txt               30558ms   0    
+3/5       astro-ph0001486.pdf           astro-ph0001486.final.txt               17485ms   0    
+4/5       astro-ph0001529.pdf           astro-ph0001529.final.txt               21937ms   0    
+5/5       cond-mat0001108.pdf           cond-mat0001108.final.txt               14342ms   1    Exception in thread "main" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.util.TimSort.mergeHi(TimSort.java:899)
+	at java.util.TimSort.mergeAt(TimSort.java:516)
+	at java.util.TimSort.mergeForceCollapse(TimSort.java:457)
+	at java.util.TimSort.sort(TimSort.java:254)
+	at java.util.Arrays.sort(Arrays.java:1512)
+	at 
+--------------------------------------------------------------------------------------------------------------------------------------------
+Total time: 1m 47s 888ms      
+Avg. Time: 21s 577ms          
+
+
+Extraction using tool pdfextract
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tool Dir:                     /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/pdfextract
+Output dir:                   /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/output/tiny-data/1-orig/pdfextract
+CMD:                          java -jar ./bin/PDFExtract/pdfextract-cli/target/pdfextract-cli-M3-SNAPSHOT-jar-with-dependencies.jar $IN $OUT > /dev/null
+Disabled:                     False
+
+Extracting ...
+
+Start time:                   13:08:04.781000 (2019-05-15)
+--------------------------------------------------------------------------------------------------------------------------------------------
+#         Input                         Target                                  Runtime   Code Status
+--------------------------------------------------------------------------------------------------------------------------------------------
+1/5       astro-ph0001196.pdf           astro-ph0001196.final.txt               73121ms   0    
+2/5       astro-ph0001004.pdf           astro-ph0001004.final.txt               84441ms   0    
+3/5       astro-ph0001486.pdf           astro-ph0001486.final.txt               57281ms   0    
+4/5       astro-ph0001529.pdf           astro-ph0001529.final.txt               60360ms   0    
+5/5       cond-mat0001108.pdf           cond-mat0001108.final.txt               36213ms   0    
+--------------------------------------------------------------------------------------------------------------------------------------------
+Total time: 5m 11s 416ms      
+Avg. Time: 1m 2s 283ms        
+
+
+Extraction using tool grobid
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tool Dir:                     /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid
+Output dir:                   /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/output/tiny-data/1-orig/grobid
+CMD:                          java -Xmx1024m -jar ./bin/grobid-core/target/grobid-core-0.4.0.one-jar.jar -gH ./bin/grobid-home/ -gP ./bin/grobid-home/config/grobid.properties -ignoreAssets -dIn $IN -dOut $OUT -exe processFullText > /dev/null
+Disabled:                     False
+
+Extracting ...
+
+Start time:                   13:10:51.856000 (2019-05-15)
+--------------------------------------------------------------------------------------------------------------------------------------------
+#         Input                         Target                                  Runtime   Code Status
+--------------------------------------------------------------------------------------------------------------------------------------------
+1/5       astro-ph0001196.pdf           astro-ph0001196.final.txt               198369ms  0    JarClassLoader: Warning: org/apache/lucene/analysis/cn/smart/hhmm/SegTokenFilter.class in lib/lucene-analyzers-smartcn-4.5.1.jar is hidden by lib/wipo-analysers-0.0.1.jar (with different bytecode)
+JarClassLoader: Warning: org/w3c/dom/UserDataHandler.class in lib/xom-1.2.5.jar is hidden by lib/xml-apis-1.4.01.jar (with different bytecode)
+log4j:ERROR Failed t
+2/5       astro-ph0001004.pdf           astro-ph0001004.final.txt               217721ms  0    JarClassLoader: Warning: org/apache/lucene/analysis/cn/smart/hhmm/SegTokenFilter.class in lib/lucene-analyzers-smartcn-4.5.1.jar is hidden by lib/wipo-analysers-0.0.1.jar (with different bytecode)
+JarClassLoader: Warning: org/w3c/dom/UserDataHandler.class in lib/xom-1.2.5.jar is hidden by lib/xml-apis-1.4.01.jar (with different bytecode)
+log4j:ERROR Failed t
+3/5       astro-ph0001486.pdf           astro-ph0001486.final.txt               145205ms  0    JarClassLoader: Warning: org/apache/lucene/analysis/cn/smart/hhmm/SegTokenFilter.class in lib/lucene-analyzers-smartcn-4.5.1.jar is hidden by lib/wipo-analysers-0.0.1.jar (with different bytecode)
+JarClassLoader: Warning: org/w3c/dom/UserDataHandler.class in lib/xom-1.2.5.jar is hidden by lib/xml-apis-1.4.01.jar (with different bytecode)
+[Wapiti] Loading mod
+4/5       astro-ph0001529.pdf           astro-ph0001529.final.txt               171957ms  0    JarClassLoader: Warning: org/apache/lucene/analysis/cn/smart/hhmm/SegTokenFilter.class in lib/lucene-analyzers-smartcn-4.5.1.jar is hidden by lib/wipo-analysers-0.0.1.jar (with different bytecode)
+JarClassLoader: Warning: org/w3c/dom/UserDataHandler.class in lib/xom-1.2.5.jar is hidden by lib/xml-apis-1.4.01.jar (with different bytecode)
+[Wapiti] Loading mod
+5/5       cond-mat0001108.pdf           cond-mat0001108.final.txt               114522ms  0    JarClassLoader: Warning: org/apache/lucene/analysis/cn/smart/hhmm/SegTokenFilter.class in lib/lucene-analyzers-smartcn-4.5.1.jar is hidden by lib/wipo-analysers-0.0.1.jar (with different bytecode)
+JarClassLoader: Warning: org/w3c/dom/UserDataHandler.class in lib/xom-1.2.5.jar is hidden by lib/xml-apis-1.4.01.jar (with different bytecode)
+[Wapiti] Loading mod
+--------------------------------------------------------------------------------------------------------------------------------------------
+Total time: 14m 7s 774ms      
+Avg. Time: 2m 49s 554ms       
+
+
+Extraction using tool icecite
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tool Dir:                     /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/icecite
+Output dir:                   /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/output/tiny-data/1-orig/icecite
+CMD:                          java -jar ./bin/icecite-pdf-parser.jar --feature paragraphs --role title --role body-text --role section-heading --role itemize-item --format txt $IN $OUT > /dev/null
+Disabled:                     False
+
+Extracting ...
+
+Start time:                   13:18:56.052000 (2019-05-15)
+--------------------------------------------------------------------------------------------------------------------------------------------
+#         Input                         Target                                  Runtime   Code Status
+--------------------------------------------------------------------------------------------------------------------------------------------
+1/5       astro-ph0001196.pdf           astro-ph0001196.final.txt               70897ms   0    
+2/5       astro-ph0001004.pdf           astro-ph0001004.final.txt               121586ms  0    
+3/5       astro-ph0001486.pdf           astro-ph0001486.final.txt               71546ms   0    
+4/5       astro-ph0001529.pdf           astro-ph0001529.final.txt               74712ms   0    
+5/5       cond-mat0001108.pdf           cond-mat0001108.final.txt               61378ms   0    
+--------------------------------------------------------------------------------------------------------------------------------------------
+Total time: 6m 40s 119ms      
+Avg. Time: 1m 20s 23ms        

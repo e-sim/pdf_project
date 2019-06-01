@@ -1,0 +1,114 @@
+pdfbox(??) -- some files did work!  errors too long though-- actually do need to add back a limit
+
+19:35:58 WARN: java.lang.NullPointerException
+java.lang.NullPointerException
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.findFontName(CharSegment.java:155)
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.<init>(CharSegment.java:90)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.showString(PDFObjectExtractor.java:543)
+	at at.ac.tuwien.dbai.pdfwrap.operator.ShowTextGlyph.process(ShowTextGlyph.java:86)
+	at org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:554)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processOperator(PDFObjectExtractor.java:259)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:268)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:235)
+	at org.apache.pdfbox.util.PDFStreamEngine.processStream(PDFStreamEngine.java:215)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPage(PDFObjectExtractor.java:1673)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPages(PDFObjectExtractor.java:1530)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.findObjects(PDFObjectExtractor.java:1390)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDF(ProcessFile.java:179)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDFToXMLDocument(ProcessFile.java:343)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.main(ProcessFile.java:532)
+19:35:58 WARN: java.lang.NullPointerException
+java.lang.NullPointerException
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.findFontName(CharSegment.java:155)
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.<init>(CharSegment.java:90)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.showString(PDFObjectExtractor.java:543)
+	at at.ac.tuwien.dbai.pdfwrap.operator.ShowTextGlyph.process(ShowTextGlyph.java:86)
+	at org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:554)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processOperator(PDFObjectExtractor.java:259)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:268)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:235)
+	at org.apache.pdfbox.util.PDFStreamEngine.processStream(PDFStreamEngine.java:215)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPage(PDFObjectExtractor.java:1673)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPages(PDFObjectExtractor.java:1530)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.findObjects(PDFObjectExtractor.java:1390)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDF(ProcessFile.java:179)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDFToXMLDocument(ProcessFile.java:343)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.main(ProcessFile.java:532)
+19:35:58 WARN: java.lang.NullPointerException
+java.lang.NullPointerException
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.findFontName(CharSegment.java:155)
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.<init>(CharSegment.java:90)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.showString(PDFObjectExtractor.java:543)
+	at at.ac.tuwien.dbai.pdfwrap.operator.ShowTextGlyph.process(ShowTextGlyph.java:86)
+	at org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:554)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processOperator(PDFObjectExtractor.java:259)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:268)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:235)
+	at org.apache.pdfbox.util.PDFStreamEngine.processStream(PDFStreamEngine.java:215)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPage(PDFObjectExtractor.java:1673)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processPages(PDFObjectExtractor.java:1530)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.findObjects(PDFObjectExtractor.java:1390)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDF(ProcessFile.java:179)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.processPDFToXMLDocument(ProcessFile.java:343)
+	at at.ac.tuwien.dbai.pdfwrap.ProcessFile.main(ProcessFile.java:532)
+19:35:58 WARN: java.lang.NullPointerException
+java.lang.NullPointerException
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.findFontName(CharSegment.java:155)
+	at at.ac.tuwien.dbai.pdfwrap.model.document.CharSegment.<init>(CharSegment.java:90)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.showString(PDFObjectExtractor.java:543)
+	at at.ac.tuwien.dbai.pdfwrap.operator.ShowTextGlyph.process(ShowTextGlyph.java:86)
+	at org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:554)
+	at at.ac.tuwien.dbai.pdfwrap.pdfread.PDFObjectExtractor.processOperator(PDFObjectExtractor.java:259)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:268)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:235)
+	at org.apache.pdfbox.util.PDFStreamEngine.processStream(PDFStrea
+
+etc etc
+
+==================================================================
+
+
+grobid
+
+20/25     physics0001033.pdf            physics0001033.final.txt                103129ms  0    JarClassLoader: Warning: org/apache/lucene/analysis/cn/smart/hhmm/SegTokenFilter.class in lib/lucene-analyzers-smartcn-4.5.1.jar is hidden by lib/wipo-analysers-0.0.1.jar (with different bytecode)
+JarClassLoader: Warning: org/w3c/dom/UserDataHandler.class in lib/xom-1.2.5.jar is hidden by lib/xml-apis-1.4.01.jar (with different bytecode)
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/fulltext/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/fulltext/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/segmentation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/segmentation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/figure/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/figure/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/header/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/header/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/header/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/header/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/citation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/citation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/affiliation-address/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/affiliation-address/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/date/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/date/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/citation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/citation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/reference-segmenter/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/reference-segmenter/model.wapiti
+21/25     physics0001062.pdf            physics0001062.final.txt                103854ms  0    JarClassLoader: Warning: org/apache/lucene/analysis/cn/smart/hhmm/SegTokenFilter.class in lib/lucene-analyzers-smartcn-4.5.1.jar is hidden by lib/wipo-analysers-0.0.1.jar (with different bytecode)
+JarClassLoader: Warning: org/w3c/dom/UserDataHandler.class in lib/xom-1.2.5.jar is hidden by lib/xml-apis-1.4.01.jar (with different bytecode)
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/fulltext/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/fulltext/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/segmentation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/segmentation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/header/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/header/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/header/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/header/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/citation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/name/citation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/affiliation-address/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/affiliation-address/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/citation/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/citation/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/reference-segmenter/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/reference-segmenter/model.wapiti
+[Wapiti] Loading model: "/media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/date/model.wapiti"
+Model path: /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/tools/data/grobid/bin/grobid-home/models/date/model.wapiti

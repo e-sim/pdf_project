@@ -1,0 +1,51 @@
+Evaluation.
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tools:                        pdftotext, pdfbox, lapdftext, pdfminer, pdfXtk, pdfextract, grobid, icecite
+Num Threads:                  None
+Mute:                         False
+Force:                        False
+Output Dir:                   ./output/tiny-data/1-orig
+Groundtruth Dir:              ../benchmark/groundtruth/tiny-data/1-orig
+YY Filter:                    ''
+MM Filter:                    ''
+Prefix:                       ''
+Suffix:                       '.body.txt'
+Rearrange:                    True
+Case Insensitive:             True
+Junk:                         ['\\[formula\\]', '\\[table\\]', '\\[figure\\]', '\\[\\\\cite=.+\\]', '\\[\\\\citep=.+\\]', '\\[\\\\citet=.+\\]', '\\[\\\\citealp=.+\\]', '\\[\\\\citealt=.+\\]', '\\[\\\\citetext=.+\\]', '\\[\\\\citeauthor=.+\\]', '\\[\\\\citeyear=.+\\]', '\\[\\\\citeyearpar=.+\\]', '\\[\\\\Citep=.+\\]', '\\[\\\\Citet=.+\\]', '\\[\\\\Citealp=.+\\]', '\\[\\\\Citealt=.+\\]', '\\[\\\\Citetext=.+\\]', '\\[\\\\Citeauthor=.+\\]', '\\[\\\\Citeyear=.+\\]', '\\[\\\\Citeyearpar=.+\\]', '\\[\\\\citetalias=.+\\]', '\\[\\\\citepalias=.+\\]', '\\[\\\\ref=.+\\]', '\\[\\\\eqref=.+\\]']
+
+Collecting ground truth files ...
+
+# Found ground truth files:   5
+
+
+Evaluation of tool pdftotext
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Tool output dir:              /media/sf_OCR_proj/pdf-text-extraction-benchmark/evaluation/output/tiny-data/1-orig/pdftotext
+Disabled:                     False
+
+Evaluating ...
+
+Start time:                   13:28:04.249000 (2019-05-15)
+--------------------------------------------------------------------------------------------------------------------------------------------
+#           File                   NL+           NL-           P+            P-            P<>           W+            W-            W~    
+--------------------------------------------------------------------------------------------------------------------------------------------
+1/5         astro-ph0001004                                                                                                                
+2/5         astro-ph0001196                                                                                                                
+3/5         astro-ph0001486                                                                                                                
+4/5         astro-ph0001529                                                                                                                
+5/5         cond-mat0001108                                                                                                                
+Traceback (most recent call last):
+  File "./bin/evaluator.py", line 611, in <module>
+    Evaluator(args).process()
+  File "./bin/evaluator.py", line 53, in process
+    results_per_tool[tool] = ToolEvaluator(tool, conf, self).process()
+  File "./bin/evaluator.py", line 170, in process
+    self.aggregate_file_results(file_results, tool_result)
+  File "./bin/evaluator.py", line 321, in aggregate_file_results
+    avg_num_ops_rel["num_para_splits"] /= sum_num_paras_target
+ZeroDivisionError: division by zero
+Makefile:57: recipe for target 'evaluate' failed
+make: *** [evaluate] Error 1
